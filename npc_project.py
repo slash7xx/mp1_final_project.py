@@ -41,8 +41,8 @@ if gng == "y" or "Y":
     talk = input("Talk to NPC? y/n:")
     if talk == "y" or "Y":
         print(f"\t\t\t\t---------------{npc_name}---------------")
-        print(f"Hi I'm {npc_name}. I'm lvl {npc_level} and my job is {npc_job}. Apparently, people know me for being {npc_trait}. I am {npc_height} ft tall, I'm also a {npc_stat} and {random.choice(final_phrase)}")
-        if talk == "n" or "N":
+        print(f"Hi I'm {npc_name}. I'm lvl {npc_level} and my job is {npc_job}. Apparently, people know me for being {npc_trait}. I am {random.choice(1.0,7.0)} ft tall, I'm also{npc_stat} and {random.choice(final_phrase)}")
+if talk == "n" or "N":
             
             
 
